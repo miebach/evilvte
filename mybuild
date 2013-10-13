@@ -1,0 +1,12 @@
+#!/bin/sh
+
+./configure
+make
+sudo make install
+
+make distclean
+
+# make sure there is also a symlink in /usr/bin/
+sudo rm /usr/bin/evilvte
+sudo ln -s /usr/local/bin/evilvte /usr/bin/evilvte
+echo "Symlink /usr/bin/evilvte created."
