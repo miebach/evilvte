@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt-get install libvte-dev
+sudo apt-get purge evilvte
+
 ./configure
 make
 sudo make install
