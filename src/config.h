@@ -18,6 +18,7 @@
 // #define CLOSE_SAFELY           TRUE  /* Do not kill running applications   */
 // #define COLOR_BACKGROUND       "white"
 // #define COLOR_FOREGROUND       "#000000"
+#define COLOR_FOREGROUND          "#00cc00" /* classic green */
 // #define COLOR_STYLE   /* Options: LINUX, RXVT, TANGO, XTERM, ZENBURN,      */
                          /*          ZENBURN_DARK, SOLARIZED_DARK,            */
                          /*          SOLARIZED_LIGHT, HOLO, USER_CUSTOM       */
