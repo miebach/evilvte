@@ -10,6 +10,13 @@ Configuration is done by editing the source code, especially src/config.h, and r
 
 Some options can be changed via hotkeys or a menu, e.g. font size or encodings for each tab.
 
+Requirements
+------------
+
+<pre>
+sudo apt install pkg-config libvte-dev
+</pre>
+
 Compilation
 -----------
 
